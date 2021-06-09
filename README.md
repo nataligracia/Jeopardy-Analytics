@@ -20,17 +20,14 @@ Content Sources:
 [Past Jeopardy Websites](https://web.archive.org/web/20210607175450/https://www.jeopardy.com/)
 <br/>
 
-<br/>
-<br/>
 Tools, Libraries, Resources, and References Used:
 <br/>
 HTML, CSS, Javascript, Tableau, Machine Learning- Bert
 <br/>
 
-<br/>
 [Huggingface](https://huggingface.co/)
 <br/>
-[SQuAD (Stanford Question Answering Dataset)](https://towardsdatascience.com/the-quick-guide-to-squad-cae08047ebee)
+[SQuAD- Stanford Question Answering Dataset](https://towardsdatascience.com/the-quick-guide-to-squad-cae08047ebee)
 <br/>
 [Embed Twitter](https://help.twitter.com/en/using-twitter/embed-twitter-feed)
 <br/>
