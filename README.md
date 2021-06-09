@@ -4,7 +4,7 @@ Analytics project gathering Jeopardy history, questions, ML research, dashboards
 ![Alt text](static/assets/Jeopardy2021.png?raw=true "Logo 2021")
 
 Content Sources:
-[Jeopardy JSON/CSV set] (https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
+[Jeopardy JSON/CSV set](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
 <br/>
 Current Jeopardy Logo: https://www.ohio.edu/news/2021/03/ohio-university-be-featured-jeopardy-episode
 <br/>
