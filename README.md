@@ -3,7 +3,7 @@ Analytics project gathering Jeopardy history, questions, ML research, dashboards
 
 ![Alt text](static/assets/Jeopardy2021.png?raw=true "Logo 2021")
 
-Content Sources:
+## Content Sources:
 <br/>
 [Jeopardy JSON/CSV set](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
 <br/>
@@ -20,10 +20,9 @@ Content Sources:
 [Past Jeopardy Websites](https://web.archive.org/web/20210607175450/https://www.jeopardy.com/)
 <br/>
 
-Tools, Libraries, Resources, and References Used:
+## Tools, Libraries, Resources, and References Used:
 <br/>
 HTML, CSS, Javascript, Tableau, Machine Learning- Bert
-<br/>
 
 [Huggingface](https://huggingface.co/)
 <br/>
