@@ -1,2 +1,2 @@
-# Jeopardy-Bot
-ML project creating a twitter bot to provide answers to questions
+# Jeopardy-Analytics
+Analytics project gathering Jeopardy history, questions, ML research, dashboards, and current social medias.
