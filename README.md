@@ -1,2 +1,2 @@
 # Jeopardy-Analytics
-Analytics project gathering Jeopardy history, questions, ML research, dashboards, and current social medias.
+Analytics project gathering Jeopardy history, questions, ML research, dashboards, and current social media forums
