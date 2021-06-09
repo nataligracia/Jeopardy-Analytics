@@ -55,6 +55,8 @@ HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summari
 <br/>
 [Bootstrap Icons](https://icons.getbootstrap.com/)
 <br/>
+[Bootstrap Custom Display](https://getbootstrap.com/docs/4.4/utilities/display/)
+<br/>
 [HTML iframe](https://www.w3schools.com/tags/tag_iframe.ASP)
 <br/>
 
