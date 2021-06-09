@@ -29,7 +29,7 @@ HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summari
 <br/>
 [Topic Modeling with Bert](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6)
 <br/>
-[BERTOpic](https://github.com/MaartenGr/BERTopic)
+[BERTopic](https://github.com/MaartenGr/BERTopic)
 <br/>
 [BERT Visual Guide](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
 <br/>
@@ -79,6 +79,7 @@ HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summari
 ### Jeopardy Game History
 ### Jeppardy Game Explained
 ### Project Plan
+<br/>
 
 
 ## Machine Learning
@@ -86,27 +87,27 @@ HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summari
 ### Data Preparation
 ### Supervised Model
 ### Unsupervised Model
-
+<br/>
 
 ## Tableau Dashboard
 
 ### Visualization 1
 ### Visualization 2
 ### Visualization 3
-
+<br/>
 
 ## Data
 
 ### Original
 ### Standarized Categories
 ### Removed Stop Words Version
-
-
-### Contributors:
-[Grace Li](https://github.com/Grace-Bijun-Li)[LinkedIn](https://www.linkedin.com/in/bijun-li/
-<br/>)
-[Natali Gracia](https://github.com/nataligracia)[LinkedIn](https://www.linkedin.com/in/nataligracia/)
 <br/>
-[Seidy Pacheco](https://github.com/seidyp)[LinkedIn](https://www.linkedin.com/in/seidypacheco/)
+
+## Contributors:
+[Grace Li](https://github.com/Grace-Bijun-Li)- [LinkedIn](https://www.linkedin.com/in/bijun-li/)
 <br/>
-[Rasheed Omolabi](https://github.com/rashhola)[LinkedIn](https://www.linkedin.com/in/rasheed-omolabi-5a32baa9/)
+[Natali Gracia](https://github.com/nataligracia)- [LinkedIn](https://www.linkedin.com/in/nataligracia/)
+<br/>
+[Seidy Pacheco](https://github.com/seidyp)- [LinkedIn](https://www.linkedin.com/in/seidypacheco/)
+<br/>
+[Rasheed Omolabi](https://github.com/rashhola)- [LinkedIn](https://www.linkedin.com/in/rasheed-omolabi-5a32baa9/)
