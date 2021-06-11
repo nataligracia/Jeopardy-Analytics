@@ -1,5 +1,5 @@
 // from jeopardy.json
-d3.json('../data/jeopardy.json').then( function(tableData = data) {
+d3.json('../static/data/jeopardy.json').then( function(tableData = data) {
     console.log(tableData)
 
 // from data.js
