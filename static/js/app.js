@@ -1,5 +1,5 @@
 // from jeopardy.json
-d3.json('../static/data/jeopardy.json').then( function(tableData = data) {
+d3.json('../static/data/jeopardy.json').then( function(tableData) {
     console.log(tableData)
 
 // from data.js
@@ -9,15 +9,16 @@ d3.json('../static/data/jeopardy.json').then( function(tableData = data) {
 const tbody = d3.select("tbody");
 
 // define a function called buildTable that takes an argument called data
-function buildTable(data) {
+function buildTable(data,page=1) {
 // the job of this function is to parse out the data and create an html table
 //YOUR_CODE_HERE
   // clear out any existing data in tbody by setting the .html() to an empty string
   tbody.html("");
-
+let page_size = 20 
   // Next, loop forEach() dataRow in the data
   // and append a row and cells for each value in the row
-  data.forEach((dataRow) => {
+  
+  data.slice(page*page_size,(page+1)*page_size).forEach((dataRow) => {
     // .append() a table row "tr" to the tbody
     const row = tbody.append("tr");
 

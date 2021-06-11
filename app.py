@@ -36,7 +36,7 @@ app = Flask(__name__)
 ################
 mongo = pymongo.MongoClient("mongodb+srv://jeopardy:jeopardy@jeopardy.n13te.mongodb.net/jeopardy?retryWrites=true&w=majority")
 
-db = mongo['climate-dashboard']
+db = mongo['jeopardy']
 
 ################
 #Flask Routes
@@ -47,33 +47,33 @@ db = mongo['climate-dashboard']
 def welcome():
     return render_template("index.html")
 
-@app.route("/championshipdata")
-def championshipdata():
+# @app.route("/championshipdata")
+# def championshipdata():
 
-    championshipdata = pd.read_sql("select * from championships",engine)
+#     championshipdata = pd.read_sql("select * from championships",engine)
     
-    championshipjson = championshipdata.to_dict(orient="records")
+#     championshipjson = championshipdata.to_dict(orient="records")
 
-    return jsonify(championshipjson)
+#     return jsonify(championshipjson)
 
-@app.route("/championships")
-def championships():
+@app.route("/projectoverview")
+def projectoverview():
     return render_template("whatis.html")
 
-@app.route("/bubblechart")
-def bubblechart():
+@app.route("/tableau")
+def tableau():
     return render_template("tableau.html")
 
-@app.route("/bubblechart")
-def bubblechart():
+@app.route("/mlresearch")
+def mlresearch():
     return render_template("mlresearch.html")
 
-@app.route("/bubblechart")
-def bubblechart():
+@app.route("/originaldata")
+def originaldata():
     return render_template("originaldata.html")
 
-@app.route("/bubblechart")
-def bubblechart():
+@app.route("/editeddata")
+def editeddata():
     return render_template("editeddata.html")
 
 #Define main behavior
