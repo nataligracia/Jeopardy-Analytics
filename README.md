@@ -59,6 +59,10 @@ HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summari
 <br/>
 [HTML iframe](https://www.w3schools.com/tags/tag_iframe.ASP)
 <br/>
+[Convert Jupyter Notebook/Collab to HTML](https://www.youtube.com/watch?v=nezPWpBNr7k)
+<br/>
+[Google Collab to HTML](https://leaherb.com/save-google-colab-notebook-to-html/)
+<br/>
 
 ## Content Sources:
 [Jeopardy JSON/CSV set](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)

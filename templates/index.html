@@ -6,6 +6,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <title>Home</title>
+
         <!-- Bootstrap CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -34,7 +36,7 @@
                         <ul class="nav nav-pills flex-sm-column flex-row flex-nowrap flex-shrink-1 flex-sm-grow-0 flex-grow-1 mb-sm-auto mb-0 justify-content-center align-items-center align-items-sm-start" id="menu">
                             <li class="nav-item">
                                 <a href="whatis.html" class="nav-link px-sm-0 px-2">
-                                    <i class="fs-5 bi-cash-coin"></i><span class="ms-1 d-none d-sm-inline">"What/Who is Jeopardy?"</span>
+                                    <i class="fs-5 bi-cash-coin"></i><span class="ms-1 d-none d-sm-inline">Project Overview</span>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -194,10 +196,9 @@
                             </div>
 
 
-                            <!--Add Twitter Feed-->
+
                             <div class="col-md-4">
                             <br/>
-                                <!-- <a class="twitter-timeline" href="https://twitter.com/Jeopardy?ref_src=twsrc%5Etfw">Tweets by Jeopardy</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
                                 <a class="twitter-timeline" data-height="480" href="https://twitter.com/Jeopardy?ref_src=twsrc%5Etfw">Tweets by Jeopardy</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </div>
 
@@ -208,11 +209,38 @@
 
 
                         <div class="col pt-4">
-                            <h3>Jeopardy Overview & Research</h3>
-                            <p class="lead">An example multi-level sidebar with collasible menu items. The menu functions like an "accordion" where only a single menu is be open at a time.</p>
+                            <h1>Jeopardy Analysis & Topic Attribution Research</h3>
+                            <p>As one of the longest-running and most awarded game shows in television history, Jeopardy contestants have collectively answered hundreds of thousands of questions in the last five decades. Our team set out on a mission to analyze and visualize Jeopardy questions and how topics and question values have changed over time. 
+
+                                In addition to gaining a high-level view of Jeopardy trends over time, we identified a need to better classify each Jeopardy question. Our original dataset included category names that match the category names used in the show. For example, a question that falls into the "TAKE A PILL” category may be classified under a general literature category just as likely as it could be a scientific or historical category. Our project evolved to research how machine learning can play a role in better classifying each question at a scale that a person couldn’t. 
+                                
+                                We found that the BERTopic tool can be used across a vast dataset even when the corpus of a document is limited in its scope. At the end of this project, you will be able to review our findings on using BERTopic to classify questions compared to our manual topic classification work.
+                                </p>
                             <hr />
-                            <h3>Future Considerations</h3>
-                            <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia saltreet art organic Bushwick artisan clicc lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+                            <h2>Why Jeopardy?</h3>
+                            <p>Jeopardy provides a vast amount of data that not only include data on how questions have changed over the years, but provided an opportunity to research and understand how natural language processing can be implemented to better classify bodies of text, no matter how limited in scope.</p>
+                            
+                            <h2>Findings</h3>
+                            <p>Our top four findings are as follows:
+                                <ol type="1">
+                                    <li>Although Jeopardy has been around for decades, the highest question values have come through since the mid 2000’s. This may indicate that Jeopardy enthusiasts have found a way to make Jeopardy winnings much more lucrative than previously thought.
+                                    </li>
+                                    <li>Identifying the best segment of your data (questions versus answers) to classify topics is crucial prior to using any machine learning or natural language processing tool.
+                                    </li>
+                                    <li>BERTopic is a fantastic tool for unsupervised topic generation even with a limited body of text. Embedding models and minimizing topic requirement parameters is necessary to find a model that best fits the given data.
+                                    </li>
+                                    <li>How removing stop words impacts BERTopic
+                                    </li>
+                                  </ol>
+                            </p>
+                            <h2>Future Uses</h2>
+                            <p>The findings from this project can not only be used by a Jeopardy enthusiast to see which topics are most prevalent and consistently asked, but can also be used as a starting point to generate topics for various things such as:
+                                <ul>
+                                    <li>Customer or employee reviews on surveys</li>
+                                    <li>Standardized test question classification</li>
+                                    <li>Trivia questions classification (and eventual generation)</li>
+                                  </ul>
+                            </p>
                         </div>
 
                         <!-- Add JeopardyLogo History Video

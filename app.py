@@ -1,10 +1,14 @@
 #Flask & dependencies modules
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request, redirect
+import pymongo
+from flask_pymongo import PyMongo
 import pandas as pd
-from sqlalchemy import create_engine
+import json
 
-#SQL Use Tool
-engine = create_engine("sqlite:///mappingmambas.sqlite")
+# from sqlalchemy import create_engine
+
+# #SQL Use Tool
+# engine = create_engine("sqlite:///mappingmambas.sqlite")
 
 #Reflect database into new model
  # Base = automap_base()
@@ -25,6 +29,14 @@ engine = create_engine("sqlite:///mappingmambas.sqlite")
 #Create an app for Flask setup
 app = Flask(__name__)
 
+
+
+################
+#Database Setup
+################
+mongo = pymongo.MongoClient("mongodb+srv://jeopardy:jeopardy@jeopardy.n13te.mongodb.net/jeopardy?retryWrites=true&w=majority")
+
+db = mongo['climate-dashboard']
 
 ################
 #Flask Routes
