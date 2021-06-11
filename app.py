@@ -5,22 +5,6 @@ from flask_pymongo import PyMongo
 import pandas as pd
 import json
 
-# from sqlalchemy import create_engine
-
-# #SQL Use Tool
-# engine = create_engine("sqlite:///mappingmambas.sqlite")
-
-#Reflect database into new model
- # Base = automap_base()
-
-#Reflect the tables and pass in the engine
-# Base.prepare(engine, reflect=True)
-
-#Label tables from classes
-# Championships = Base.classes.championships
-
-#Create a session and bind it to the engine
-# session = Session(engine)
 
 ################
 #Flask Setup
@@ -47,14 +31,6 @@ db = mongo['jeopardy']
 def welcome():
     return render_template("index.html")
 
-# @app.route("/championshipdata")
-# def championshipdata():
-
-#     championshipdata = pd.read_sql("select * from championships",engine)
-    
-#     championshipjson = championshipdata.to_dict(orient="records")
-
-#     return jsonify(championshipjson)
 
 @app.route("/projectoverview")
 def projectoverview():
