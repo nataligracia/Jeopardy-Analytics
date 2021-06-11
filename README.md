@@ -3,7 +3,7 @@
 #### 	:joystick:  Analysis done by these game players:
 [Grace Li](https://github.com/Grace-Bijun-Li), [Natali Gracia](https://github.com/nataligracia), [Seidy Pacheco](https://github.com/seidyp), [Rasheed Omolabi](https://github.com/rashhola)
 
-![Alt text](static/assets/Jeopardy2021.png?raw=true "Logo 2021")
+![Alt text](https://github.com/nataligracia/Jeopardy-Analytics/blob/grace-branch/static/assets/JeopardyLogo.jpeg)
 
 ## :dart: Objectives
 1. Visualize Jeopardy trends and categories over time
