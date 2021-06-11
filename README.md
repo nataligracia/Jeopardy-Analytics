@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-# Jeopardy-Bot
-ML project creating a twitter bot to provide answers to questions
-=======
 # :trophy: What is JEOPARDY :trophy:
 
 #### 	:joystick:  Analysis done by these game players:
@@ -85,15 +81,13 @@ ML project creating a twitter bot to provide answers to questions
 <details>
 <summary>Click here to view the dashboard</summary>
     
-![Dashbaord](https://user-images.githubusercontent.com/74644774/117547078-7d06cf00-afe2-11eb-95fb-bcc40690ab35.png)
+![Dashbaord](https://github.com/nataligracia/Jeopardy-Analytics/blob/grace-branch/static/assets/dashboard.jpg)
 
  
 </details>
 
-<br>
 
 ## :bookmark_tabs: Limiations
 Due to time limitations, we were unable to further study how different embedding models impact our BERTopic. We also were hoping to explore building a semi-supervised model using a smaller dataset where we manually classified topics.
 
 It was also difficult to find pre-vetted Jeopardy datasets that provide more information around contestant earnings overtime. 
->>>>>>> Stashed changes
