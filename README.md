@@ -1,5 +1,6 @@
 # :trophy: What is JEOPARDY :trophy:
 
+## :computer: Please find our website in [HERE](https://jeopardyanalysis.herokuapp.com/)!
 
 ![Alt text](https://github.com/nataligracia/Jeopardy-Analytics/blob/grace-branch/static/assets/JeopardyLogo.jpeg)
 
@@ -139,4 +140,3 @@ It was also difficult to find pre-vetted Jeopardy datasets that provide more inf
 ### [Rasheed Omolabi](https://github.com/rashhola)
   - Tableau Visualization
 
-## :computer: Please find our website in [HERE](https://jeopardyanalysis.herokuapp.com/)!
