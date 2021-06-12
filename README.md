@@ -2,7 +2,7 @@
 
 ## :computer: Please find our website in [HERE](https://jeopardyanalysis.herokuapp.com/)!
 
-![Alt text](https://github.com/nataligracia/Jeopardy-Analytics/blob/grace-branch/static/assets/JeopardyLogo.jpeg)
+![Alt text](static/assets/JeopardyLogo.jpeg)
 
 ## :dart: Objectives
 1. Visualize Jeopardy trends and categories over time
@@ -81,7 +81,7 @@
 <details>
 <summary>Click here to view the dashboard</summary>
     
-![Dashbaord](https://github.com/nataligracia/Jeopardy-Analytics/blob/grace-branch/static/assets/dashboard.png)
+![Dashbaord](static/assets/dashboard.png)
 
  
 </details>
