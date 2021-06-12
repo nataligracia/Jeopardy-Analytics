@@ -88,25 +88,37 @@
 ```
 **Why top 10 categories/year?**
 
-Jeopardy is fun to play, you just have to be a fast thinker and someone who knows more than a bit of everything ranging from science to history, culture and so on. Having this mind, it was smart to look at the top categories that comes by every year in case you want to jump on the show soon.
+Jeopardy is fun to play, you just have to be a fast thinker and someone who knows more than a 
+bit of everything ranging from science to history, culture and so on. Having this mind, it was 
+smart to look at the top categories that comes by every year in case you want to jump on the 
+show soon.
 ```
 
 ```
 **What do I need to concentrate on for real? ...the answer is everything!**
 
-The weight of the gold matters and what is where I want to play. Who would have thought language category will be the big cake of the future??? Every knowledge is valuable anyways... Keep learning!
+The weight of the gold matters and what is where I want to play. Who would have thought language 
+category will be the big cake of the future??? Every knowledge is valuable anyways... 
+Keep learning!
 ```
 
 ```
 **Get rich or try getting the correct answer?**
 
-The value of money available to be won was plotted vs. the year range, each year came with its own juice, but 2005-2009 had so many juice plus cheesecake and honey...smiles. Should I give the credits to investors/sponsors or the crash in the economy made people more diverse in entertainmet? Maybe yes...maybe no.
+The value of money available to be won was plotted vs. the year range, each year came with its
+own juice, but 2005-2009 had so many juice plus cheesecake and honey...smiles. Should I give 
+the credits to investors/sponsors or the crash in the economy made people more diverse in
+entertainmet? Maybe yes...maybe no.
 ```
 
 ```
 **Which round was popular across the years in view?**
 
-The most popular rounds across the years were analyzed too, guess what? 2005-2009 had the most shows and this was a true indication why more money was invested on the show, and you just had to get rich quick and grab all. Double Jeopardy round had the highest count, it could be a lot of people made it to that round - probably they listened to my advise from the future to grab the money and got rich quick...lol
+The most popular rounds across the years were analyzed too, guess what? 2005-2009 had the most 
+shows and this was a true indication why more money was invested on the show, and you just had 
+to get rich quick and grab all. Double Jeopardy round had the highest count, it could be a lot 
+of people made it to that round - probably they listened to my advise from the future to grab 
+the money and got rich quick...lol
 ```
 
 ## :bookmark_tabs: Limiations
@@ -115,13 +127,16 @@ Due to time limitations, we were unable to further study how different embedding
 It was also difficult to find pre-vetted Jeopardy datasets that provide more information around contestant earnings overtime. 
 
 ## 	:joystick:  Analysis done by these game players:
-[Grace Li](https://github.com/Grace-Bijun-Li)
+### [Grace Li](https://github.com/Grace-Bijun-Li)
   - Data Preparation & Machine Learning
-[Natali Gracia](https://github.com/nataligracia)
+
+### [Natali Gracia](https://github.com/nataligracia)
   - Front-End Development & Deployment
-[Seidy Pacheco](https://github.com/seidyp)
+
+### [Seidy Pacheco](https://github.com/seidyp)
   - Machine Learning
-[Rasheed Omolabi](https://github.com/rashhola)
+
+### [Rasheed Omolabi](https://github.com/rashhola)
   - Tableau Visualization
 
 ## :computer: Please find our website in [HERE](https://jeopardyanalysis.herokuapp.com/)!
