@@ -1,121 +1,142 @@
-# Jeopardy-Analytics
-Analytics project gathering Jeopardy history, questions, ML research, dashboards, and current social media forums
+# :trophy: What is JEOPARDY :trophy:
 
-![Alt text](static/assets/Jeopardy2021.png?raw=true "Logo 2021")
+## :computer: Please find our website in [HERE](https://jeopardyanalysis.herokuapp.com/)!
 
+![Alt text](https://github.com/nataligracia/Jeopardy-Analytics/blob/grace-branch/static/assets/JeopardyLogo.jpeg)
 
-## Tools, Libraries, Resources, and References Used:
-HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summarizer
+## :dart: Objectives
+1. Visualize Jeopardy trends and categories over time
+2. Use machine learning to better classify each Jeopardy question
 
-### Data Sources:
-[Reddit Datasets](https://www.reddit.com/r/datasets/)
-<br/>
-[Jeopardy in 99 Categories](https://www.sporcle.com/games/rockgolf/analbumcover/results)
-<br/>
-[Jeopardy Clues](https://www.reddit.com/r/datasets/comments/cj3ipd/jeopardy_dataset_with_349000_clues/)
-<br/>
-[Hugging Face](https://huggingface.co/)
-<br/>
-[SQuAD- Stanford Question Answering Dataset](https://towardsdatascience.com/the-quick-guide-to-squad-cae08047ebee)
-<br/>
-[UInclude Word Bias](http://www.uinclude.com/)
-<br/>
-[AI Question Generator](https://github.com/KristiyanVachev/Question-Generation)
-<br/>
-[QuestGen](https://towardsdatascience.com/questgen-an-open-source-nlp-library-for-question-generation-algorithms-1e18067fcdc6)
-<br/>
-[Transfer Learning with T5](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html)
-<br/>
-[Bert Extractive Summarizer](https://pypi.org/project/bert-extractive-summarizer/)
-<br/>
-[Topic Modeling with Bert](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6)
-<br/>
-[BERTopic](https://github.com/MaartenGr/BERTopic)
-<br/>
-[BERT Visual Guide](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
-<br/>
-[Natural Language Processing & BERT](https://jalammar.github.io/illustrated-bert/)
-<br/>
-[UnicodeDecodeError](https://stackoverflow.com/questions/18171739/unicodedecodeerror-when-reading-csv-file-in-pandas-with-python)
-<br/>
-[Spark to Pandas DF](https://stackoverflow.com/questions/50958721/convert-a-spark-dataframe-to-pandas-df)
-<br/>
-[PySpark to Pandas Example](https://sparkbyexamples.com/pyspark/convert-pyspark-dataframe-to-pandas/)
-<br/>
-[Twitter API Reference](https://docs.tweepy.org/en/latest/api.html)
-<br/>
-[Embed Twitter](https://help.twitter.com/en/using-twitter/embed-twitter-feed)
-<br/>
-[Twitter Bot Guide](https://www.instafollowers.co/blog/how-to-make-a-twitter-bot)
-<br/>
-[Bootstrap Sidebar](https://www.codeply.com/p/Nkp8O77PFS)
-<br/>
-[Bootstrap Carousel](https://stackoverflow.com/questions/28972493/bootstrap-carousel-within-a-column)
-<br/>
-[Javascript Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)
-<br/>
-[Bootstrap Icons](https://icons.getbootstrap.com/)
-<br/>
-[Bootstrap Custom Display](https://getbootstrap.com/docs/4.4/utilities/display/)
-<br/>
-[HTML iframe](https://www.w3schools.com/tags/tag_iframe.ASP)
-<br/>
-[Convert Jupyter Notebook/Collab to HTML](https://www.youtube.com/watch?v=nezPWpBNr7k)
-<br/>
-[Google Collab to HTML](https://leaherb.com/save-google-colab-notebook-to-html/)
-<br/>
+## :wrench: Tools and Libraries the Project Uses
+1. Data Cleaning
 
-### Front-End Sources:
-[Jeopardy JSON/CSV set](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
-<br/>
-[2021 Jeopardy Logo](https://www.ohio.edu/news/2021/03/ohio-university-be-featured-jeopardy-episode)
-<br/>
-[2011 Jeopardy Logo](https://www.thelist.com/302141/the-truth-about-winning-jeopardy/)
-<br/>
-[1998 Jeopardy Logo](https://www.youtube.com/watch?v=eGtPwyaX9qE)
-<br/>
-[Jeopardy Logo History Video](https://www.youtube.com/watch?v=eHDbZ1LHxqY&t=1s)
-<br/>
-[Current Jeopardy Website](https://www.jeopardy.com/)
-<br/>
-[Past Jeopardy Websites](https://web.archive.org/web/20210607175450/https://www.jeopardy.com/)
-<br/>
+```
+- Python
+- Pandas
+- PySpark
+- Spark
+- JSON
+```
 
-## What/Who is Jeopardy Analytics?
+2. Data Visualizations
 
-### Jeopardy Game History
-### Jeppardy Game Explained
-### Project Plan
-<br/>
+```
+- Tableau
+```
+ 
+3. Machine Learning
+
+```
+  - BERTopic
+  - Pandas
+```
+
+5. Front-end Development
+
+```
+  - HTML
+  - CSS
+  - Javascript
+```
+
+6. Deployment
+
+```
+  - Flask
+  - MongoDB
+  - Heroku
+```
 
 
-## Machine Learning
+## :open_file_folder: Sources and Resources 
 
-### Data Preparation
-### Supervised Model
-### Unsupervised Model
-<br/>
+1. Data Sources:
+    - [Current Jeopardy Logo](https://www.ohio.edu/news/2021/03/ohio-university-be-featured-jeopardy-episode)
+    - [Jeopardy JSON/CSV set](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
+2. Front-End Sources:
+    - [1998 Jeopardy Logo](https://www.youtube.com/watch?v=eGtPwyaX9qE)
+    - [2011 Jeopardy Logo](https://www.thelist.com/302141/the-truth-about-winning-jeopardy/)
+    - [Current Jeopardy Website](https://www.jeopardy.com/)
+    - [Jeopardy Logo History Video](https://www.youtube.com/watch?v=eHDbZ1LHxqY&t=1s)
+3. Other Resources: 
+    - [Bootstrap Sidebar](https://www.codeply.com/p/Nkp8O77PFS)
+    - [Bootstrap Carousel](https://stackoverflow.com/questions/28972493/bootstrap-carousel-within-a-column)
+    - [Bootstrap Icons](https://icons.getbootstrap.com/)
+    - [Convert Jupyter Notebook/Collab to HTML](https://www.youtube.com/watch?v=nezPWpBNr7k)
+    - [Embed Twitter](https://help.twitter.com/en/using-twitter/embed-twitter-feed)
+    - [Google Collab to HTML](https://leaherb.com/save-google-colab-notebook-to-html/)
+    - [HTML iframe](https://www.w3schools.com/tags/tag_iframe.ASP)
+    - [Huggingface.co](https://huggingface.co/)
+    - [Javascript Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)
+    - [Jeopardy in 99 Categories](https://www.sporcle.com/games/rockgolf/analbumcover/results)
+    - [Spark to Pandas DF](https://stackoverflow.com/questions/50958721/convert-a-spark-dataframe-to-pandas-df)
+    - [SQuAD (Stanford Question Answering Dataset)](https://towardsdatascience.com/the-quick-guide-to-squad-cae08047ebee)
+    - [Twitter API Reference](https://docs.tweepy.org/en/latest/api.html)
+    
 
-## Tableau Dashboard
+## :bar_chart: Visualization Sneak Peak
+### [Jeopardy in summary!](https://public.tableau.com/app/profile/rasheed.omolabi/viz/JeopardyAnalysis_twb/MainDashboard)
 
-### Visualization 1
-### Visualization 2
-### Visualization 3
-<br/>
+<details>
+<summary>Click here to view the dashboard</summary>
+    
+![Dashbaord](https://github.com/nataligracia/Jeopardy-Analytics/blob/grace-branch/static/assets/dashboard.png)
 
-## Data
+ 
+</details>
 
-### Original
-### Standarized Categories
-### Removed Stop Words Version
-<br/>
+```
+Why top 10 categories/year?
 
-## Contributors:
-[Grace Li](https://github.com/Grace-Bijun-Li)- [LinkedIn](https://www.linkedin.com/in/bijun-li/)
-<br/>
-[Natali Gracia](https://github.com/nataligracia)- [LinkedIn](https://www.linkedin.com/in/nataligracia/)
-<br/>
-[Seidy Pacheco](https://github.com/seidyp)- [LinkedIn](https://www.linkedin.com/in/seidypacheco/)
-Machine Learning: [Google Collab]()
-<br/>
-[Rasheed Omolabi](https://github.com/rashhola)- [LinkedIn](https://www.linkedin.com/in/rasheed-omolabi-5a32baa9/)
+Jeopardy is fun to play, you just have to be a fast thinker and someone who knows more than a 
+bit of everything ranging from science to history, culture and so on. Having this mind, it was 
+smart to look at the top categories that comes by every year in case you want to jump on the 
+show soon.
+```
+
+```
+What do I need to concentrate on for real? ...the answer is everything!
+
+The weight of the gold matters and what is where I want to play. Who would have thought language 
+category will be the big cake of the future??? Every knowledge is valuable anyways... 
+Keep learning!
+```
+
+```
+Get rich or try getting the correct answer?
+
+The value of money available to be won was plotted vs. the year range, each year came with its
+own juice, but 2005-2009 had so many juice plus cheesecake and honey...smiles. Should I give 
+the credits to investors/sponsors or the crash in the economy made people more diverse in
+entertainmet? Maybe yes...maybe no.
+```
+
+```
+Which round was popular across the years in view?
+
+The most popular rounds across the years were analyzed too, guess what? 2005-2009 had the most 
+shows and this was a true indication why more money was invested on the show, and you just had 
+to get rich quick and grab all. Double Jeopardy round had the highest count, it could be a lot 
+of people made it to that round - probably they listened to my advise from the future to grab 
+the money and got rich quick...lol
+```
+
+## :bookmark_tabs: Limiations
+Due to time limitations, we were unable to further study how different embedding models impact our BERTopic. We also were hoping to explore building a semi-supervised model using a smaller dataset where we manually classified topics.
+
+It was also difficult to find pre-vetted Jeopardy datasets that provide more information around contestant earnings overtime. 
+
+## 	:joystick:  Analysis done by these game players:
+### [Grace Li](https://github.com/Grace-Bijun-Li)
+  - Data Preparation & Machine Learning
+
+### [Natali Gracia](https://github.com/nataligracia)
+  - Front-End Development & Deployment
+
+### [Seidy Pacheco](https://github.com/seidyp)
+  - Machine Learning
+
+### [Rasheed Omolabi](https://github.com/rashhola)
+  - Tableau Visualization
+
