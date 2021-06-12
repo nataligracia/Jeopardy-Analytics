@@ -7,6 +7,7 @@ Analytics project gathering Jeopardy history, questions, ML research, dashboards
 ## Tools, Libraries, Resources, and References Used:
 HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summarizer
 
+### Data Sources:
 [Reddit Datasets](https://www.reddit.com/r/datasets/)
 <br/>
 [Jeopardy in 99 Categories](https://www.sporcle.com/games/rockgolf/analbumcover/results)
@@ -64,7 +65,7 @@ HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summari
 [Google Collab to HTML](https://leaherb.com/save-google-colab-notebook-to-html/)
 <br/>
 
-## Content Sources:
+### Front-End Sources:
 [Jeopardy JSON/CSV set](https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
 <br/>
 [2021 Jeopardy Logo](https://www.ohio.edu/news/2021/03/ohio-university-be-featured-jeopardy-episode)
@@ -115,5 +116,6 @@ HTML, CSS, Javascript, D3, Tableau, HuggingFace Pytorch, Bert Extractive Summari
 [Natali Gracia](https://github.com/nataligracia)- [LinkedIn](https://www.linkedin.com/in/nataligracia/)
 <br/>
 [Seidy Pacheco](https://github.com/seidyp)- [LinkedIn](https://www.linkedin.com/in/seidypacheco/)
+Machine Learning: [Google Collab]()
 <br/>
 [Rasheed Omolabi](https://github.com/rashhola)- [LinkedIn](https://www.linkedin.com/in/rasheed-omolabi-5a32baa9/)
