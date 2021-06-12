@@ -58,8 +58,8 @@
                             </li>
                             <br/>
                             <br/>
-                            <br/>
-                            <br/>
+                            <!-- <br/>
+                            <br/> -->
                             <li>
                                 <p>Scan for our Project Repo!</p>
                                 <a href="https://github.com/nataligracia/Jeopardy-Analytics" class="nav-link px-sm-0 px-2">
@@ -139,8 +139,31 @@
 
 
 
+                <!-- Start Home Page Content
+                <div class="row"> -->
 
-                
+                    <!-- Start Left Summary Content/Columns-->
+                    <div class="col content">
+                    <br>
+                    <h1>Data</h1>
+                    <hr>
+                        <p>The following table includes all of the data used for plotting during this project.
+                        </p>
+
+                        <div id="CSVTable"></div>
+                        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+                        
+                        <script>
+                        $(function() {
+                        $('#CSVTable').load('predicted_labels.html');
+                        });
+                        </script>
+
+                    <hr>
+
+                <!-- </div>
+                End Right Visualizations Content/Columns -->
+
 
 
             </div>
