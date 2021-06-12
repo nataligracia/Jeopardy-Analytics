@@ -1,5 +1,5 @@
 #Flask & dependencies modules
-from flask import Flask, jsonify, render_template, request, redirect
+from flask import Flask, jsonify, render_template, request, redirect, current_app
 import pymongo
 from flask_pymongo import PyMongo
 import pandas as pd
@@ -42,7 +42,7 @@ def tableau():
 
 @app.route("/mlresearch")
 def mlresearch():
-    return render_template("mlresearch.html")
+    return current_app.send_static_file("mlresearch.html")
 
 @app.route("/originaldata")
 def originaldata():
