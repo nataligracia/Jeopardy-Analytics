@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jeopardy Analytics</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Jeopardy Analytics</a>
+                <!-- <a class="btn btn-primary" href="https://jeopardyanalysis.herokuapp.com/">About Us</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Intro</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://jeopardyanalysis.herokuapp.com/projectoverview" target="_blank">Overview</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://jeopardyanalysis.herokuapp.com/tableau" target="_blank">Visualizations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://jeopardyanalysis.herokuapp.com/mlresearch" target="_blank">Machine Learning</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://jeopardyanalysis.herokuapp.com/originaldata" target="_blank">Data</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <!-- Page heading-->
+                            <h1 class="mb-5">Wondering how you can use Jeopardy questions and answers to advance Natural Language Processing research?</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Icons Grid-->
+        <section class="features-icons bg-light text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-book-half m-auto text-primary"></i></div>
+                            <h3>Why Jeopardy?</h3>
+                            <p class="lead mb-0">Jeopardy provides a vast amount of data that not only include data on how questions have changed over the years, but provided an opportunity to research and understand how natural language processing can be implemented to better classify bodies of text, no matter how limited in scope.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-lightbulb m-auto text-primary"></i></div>
+                            <h3>Findings</h3>
+                            <p class="lead mb-0">Identifying and utilizing the most informative segment of available data (questions versus answers) to classify topics is crucial prior to using any machine learning or natural language processing tool.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-signpost-split m-auto text-primary"></i></div>
+                            <h3>Future Uses</h3>
+                            <p class="lead mb-0">The findings from this project can not only be used by a Jeopardy enthusiast to see which topics are most prevalent and consistently asked, but can also be used as a starting point to better classify customer reviews, standardized test questions and more!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image Showcases-->
+        <section class="showcase">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/question-values.png')"></div>                    
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Earnings Per Show Increase Significantly in the Early 2000s</h2>
+                        <p class="lead mb-0">There has been a significant increase in the earnings per show since the early 2000s. Some of this can be attributed to all-time highest Jeopardy earner Ken Jennings in 2005!</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/cats-per-year.png')"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2>Certain Categories Are More Popular Than Others</h2>
+                        <p class="lead mb-0">It appears as though overtime, the same type of questions have been the most frequently asked in Jeopardy, but these categories do not provide much of a view into the actual questions within each categories.</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/ml-categories-final.png')"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Questions Can Be Better Categorized Using Machine Learning</h2>
+                        <p class="lead mb-0">Even with a limited corpus that each Jeopardy question and answer provide, we can use an unsupervised Natural Language Processing model to better assign general category names to each question. For example, of a our model was able to classify over 500 samples into a general music category.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials-->
+        <section class="testimonials text-center bg-light">
+            <div class="container">
+                <h2 class="mb-5">The Joyous Jaguars</h2>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/grace-profile.jpeg" alt="..." />
+                            <h5>Grace L.</h5>
+                            <p class="font-weight-light mb-0">Pursuing a Master's of Analytics at Columbia University</a></p>
+                            <div class="col">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="https://github.com/Grace-Bijun-Li" target="_blank"><i class="bi-github fs-3 text-primary"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com/in/bijun-li/" target="_blank"><i class="bi-linkedin fs-3 text-primary "></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/ngracia-pic.jpeg" alt="..." />
+                            <h5>Natali G.</h5>
+                            <p class="font-weight-light mb-0">Data and Evaluation Manager at Bresee Foundation</a></p>
+                            <div class="col">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com/in/nataligracia/" target="_blank"><i class="bi-github fs-3 text-primary"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://github.com/nataligracia" target="_blank"><i class="bi-linkedin fs-3 text-primary "></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/hola-pic.jpeg" alt="..." />
+                            <h5>Rasheed O.</h5>
+                            <p class="font-weight-light mb-0">MBA, Information Technology Analyst</a></p>
+                            <div class="col">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com/in/rasheed-omolabi-5a32baa9/" target="_blank"><i class="bi-github fs-3 text-primary"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://github.com/rashhola" target="_blank"><i class="bi-linkedin fs-3 text-primary "></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/seidy-pic.jpeg" alt="..." />
+                            <h5>Seidy P.</h5>
+                            <p class="font-weight-light mb-0">Marketing and Operations Professional</a></p>
+                            <div class="col">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com/in/seidypacheco/" target="_blank"><i class="bi-github fs-3 text-primary"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://github.com/seidyp" target="_blank"><i class="bi-linkedin fs-3 text-primary "></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action-->
+        <section class="call-to-action text-white text-center" id="signup">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <h2 class="mb-4"><a href="https://jeopardyanalysis.herokuapp.com/tableau" target="_blank">Ready to learn more? View our full project and visualizations here!</a></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                        <ul class="list-inline mb-2">
+                            <li class="list-inline-item"><a href="https://jeopardyanalysis.herokuapp.com/projectoverview" target="_blank">Project Overview</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="https://jeopardyanalysis.herokuapp.com/tableau" target="_blank">Visualizations</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="https://jeopardyanalysis.herokuapp.com/mlresearch" target="_blank">Machine Learning</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="https://jeopardyanalysis.herokuapp.com/originaldata" target="_blank">Data</a></li>
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Joyous Jaguars 2021. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="https://github.com/nataligracia/Jeopardy-Analytics/tree/main" target="_blank"><i class="bi-github fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
