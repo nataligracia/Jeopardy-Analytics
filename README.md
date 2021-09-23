@@ -122,7 +122,7 @@ of people made it to that round - probably they listened to my advise from the f
 the money and got rich quick...lol
 ```
 
-## :bookmark_tabs: Limiations
+## :bookmark_tabs: Limitations
 Due to time limitations, we were unable to further study how different embedding models impact our BERTopic. We also were hoping to explore building a semi-supervised model using a smaller dataset where we manually classified topics.
 
 It was also difficult to find pre-vetted Jeopardy datasets that provide more information around contestant earnings overtime. 
